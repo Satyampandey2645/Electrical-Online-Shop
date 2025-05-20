@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: Electrical-Online-Shop
+    env: php
+    buildCommand: "composer install --optimize-autoloader --no-dev"
+    startCommand: "php artisan serve --host 0.0.0.0 --port 10000"
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        value: base64:W/hjEVAGhVwZxjnGMPqj24ssZR/jTtFHw4M6/KLmCoc=  
+      - key: APP_DEBUG
+        value: true
+      - key: APP_URL
+        value: https://electrical-online-shop.onrender.com
+      - key: DB_CONNECTION
+        value: mysql
+      - key: DB_HOST
+        value: dpg-d0m2inqdbo4c73ce3860-a
+      - key: DB_PORT
+        value: 3306
+      - key: DB_DATABASE
+        value: sparkpowerpro
+      - key: DB_USERNAME
+        value: sparkpowerpro_user
+      - key: DB_PASSWORD
+        value: DDnJvcLsWuzKbRwRqsAVgrsx16VGVIgi
