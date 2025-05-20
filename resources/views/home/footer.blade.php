@@ -10,7 +10,7 @@
         <a href="">
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
-        <a href="">
+        <a href="https://www.youtube.com/@SparkPowerPro" target="_blank">
           <i class="fa fa-youtube" aria-hidden="true"></i>
         </a>
       </div>
